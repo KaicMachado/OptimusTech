@@ -1,0 +1,53 @@
+.sobre {
+ text-align: center;
+ height: 300px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 36px;
+}
+
+.sobre span {
+ color: var(--cor-padrao);
+ font-weight: 600;
+}
+
+.sobre h2 {
+ font-size: 3rem;
+}
+
+.container-p {
+ width: 50%;
+}
+
+.container-p p {
+ font-weight: 400;
+ color: var(--cor-links);
+ font-size: 1.25rem;
+ line-height: 1.875rem;
+}
+
+/*  Responsivo  */
+
+@media (max-width: 750px) {
+ .sobre {
+  margin-top: 60px;
+ }
+ .sobre h2 {
+  font-size: 2.5rem;
+ }
+ .sobre p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+ }
+ .container-p {
+  width: 80%;
+ }
+}
+
+@media (max-width: 375px) {
+ .sobre {
+  margin-top: 80px;
+ }
+}
