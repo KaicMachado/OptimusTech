@@ -1,0 +1,24 @@
+@import "./styles/nav-bar.css";
+
+* {
+ padding: 0;
+ margin: 0;
+ font-family: Inter, "sans-serif";
+}
+
+a {
+ text-decoration: none;
+}
+
+ul,
+li {
+ list-style: none;
+}
+
+/* cores */
+
+:root {
+ --cor-padrao: #8e2424;
+ --cor-links: #667085;
+ --cor-p: #3a404e;
+}
