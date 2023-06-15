@@ -1,6 +1,8 @@
 @import "./styles/nav-bar.css";
 @import "./styles/sobre.css";
 @import "./styles/metricas.css";
+@import "./styles/talentos.css";
+@import "./styles/vagas.css";
 
 * {
  padding: 0;
