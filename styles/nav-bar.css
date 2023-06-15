@@ -26,6 +26,7 @@
 
 .lista-nav ul {
  gap: 32px;
+ justify-content: center;
 }
 
 .lista-nav ul li a {

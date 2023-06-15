@@ -1,5 +1,6 @@
 @import "./styles/nav-bar.css";
 @import "./styles/sobre.css";
+@import "./styles/metricas.css";
 
 * {
  padding: 0;

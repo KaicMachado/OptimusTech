@@ -1,0 +1,60 @@
+.metricas {
+ padding-bottom: 100px;
+}
+
+.container-metricas {
+ display: flex;
+ margin: 0px 80px;
+ flex-wrap: wrap;
+ gap: 12px;
+}
+.card {
+ width: 17.5rem;
+ height: 10.5rem;
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+ margin: 20px auto;
+}
+
+.card h2 {
+ font-size: 3.75rem;
+ color: var(--cor-padrao);
+}
+
+.card p {
+ font-size: 1rem;
+ color: var(--cor-links);
+}
+
+/* Responsivo */
+
+@media (max-width: 750px) {
+ .card {
+  width: 12.5rem;
+  height: auto;
+  margin: 10px auto;
+ }
+ .card h2 {
+  font-size: 2.5rem;
+ }
+}
+
+@media (max-width: 600px) {
+ .container-metricas {
+  display: flex;
+  margin: 0px 8px;
+ }
+}
+
+@media (max-width: 450px) {
+ .card {
+  text-align: center;
+  width: 80vw;
+  height: auto;
+  margin: 4px auto;
+ }
+ .container-metricas {
+  margin-top: 12px;
+ }
+}
