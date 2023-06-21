@@ -1,0 +1,52 @@
+.container {
+ text-align: center;
+ padding: 4rem;
+ background: rgba(195, 25, 25, 0.03);
+ width: 70%;
+ margin: 6rem auto;
+ border-radius: 16px;
+}
+
+.container p {
+ color: var(--cor-padrao);
+ font-weight: bold;
+}
+
+.container h2 {
+ margin-top: 1rem;
+}
+
+.depoimento-cliente {
+ display: flex;
+ flex-direction: column;
+ margin-top: 2rem;
+ gap: 1rem;
+}
+
+.depoimento-cliente img {
+ margin: 0 auto;
+}
+
+.depoimento-cliente span {
+ font-size: 0.875rem;
+ color: var(--cor-links);
+}
+
+.depoimento-cliente p {
+ color: #000;
+}
+
+@media (max-width: 500px) {
+ .container {
+  padding: 3rem;
+ }
+ .container h2 {
+  font-size: 0.875rem;
+ }
+ .container p {
+  font-size: 0.75rem;
+ }
+ .depoimento-cliente {
+  margin-top: 1rem;
+ }
+}

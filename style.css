@@ -3,6 +3,7 @@
 @import "./styles/metricas.css";
 @import "./styles/talentos.css";
 @import "./styles/vagas.css";
+@import "./styles/depoimentos.css";
 
 * {
  padding: 0;
