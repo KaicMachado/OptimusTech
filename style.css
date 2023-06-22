@@ -4,6 +4,7 @@
 @import "./styles/talentos.css";
 @import "./styles/vagas.css";
 @import "./styles/depoimentos.css";
+@import "./styles/footer.css";
 
 * {
  padding: 0;
